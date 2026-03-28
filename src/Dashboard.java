@@ -347,6 +347,7 @@ public class Dashboard extends javax.swing.JFrame {
         jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabel9.setText("Units");
 
+        saveCourseBtn.setBackground(new java.awt.Color(0, 153, 255));
         saveCourseBtn.setText("Save course");
         saveCourseBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -354,6 +355,7 @@ public class Dashboard extends javax.swing.JFrame {
             }
         });
 
+        clearBtn.setBackground(new java.awt.Color(0, 153, 255));
         clearBtn.setText("Clear");
 
         javax.swing.GroupLayout courseInformationLayout = new javax.swing.GroupLayout(courseInformation);
@@ -497,6 +499,7 @@ public class Dashboard extends javax.swing.JFrame {
         studentIDCB.setBackground(new java.awt.Color(255, 255, 255));
         studentIDCB.setPreferredSize(new java.awt.Dimension(64, 22));
 
+        assignCourseBtn.setBackground(new java.awt.Color(0, 153, 255));
         assignCourseBtn.setText("Assign Course");
         assignCourseBtn.setPreferredSize(new java.awt.Dimension(72, 23));
         assignCourseBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -505,6 +508,7 @@ public class Dashboard extends javax.swing.JFrame {
             }
         });
 
+        saveCourseBtn2.setBackground(new java.awt.Color(0, 153, 255));
         saveCourseBtn2.setText("Clear");
 
         javax.swing.GroupLayout enrollmentDetailsLayout = new javax.swing.GroupLayout(enrollmentDetails);
